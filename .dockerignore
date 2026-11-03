@@ -1,0 +1,17 @@
+.git
+.github
+.claude
+.worktrees
+.idea
+.vscode
+docs/
+tests/
+*.md
+!README.md
+LICENSE
+.golangci.yml
+.hadolint.yaml
+commitlint.config.mjs
+release-please-config.json
+.release-please-manifest.json
+renovate.json

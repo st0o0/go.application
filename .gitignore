@@ -1,0 +1,40 @@
+# Go build output
+/myapp
+*.exe
+
+# Coverage
+*_cov.out
+coverage/
+
+# Design docs (local only)
+docs/
+
+# Claude Code
+.claude/
+
+# Worktrees
+.worktrees/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Test artifacts
+tests/tmp/
+*.log
+
+# Environment files
+**.env
+
+# Secrets
+.secrets/
+
+# Database files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
